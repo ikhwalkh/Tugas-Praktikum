@@ -25,7 +25,7 @@ string cekKondisi(float bmi)
 {
     if (bmi < 18.5)
         return "Berat Badan Kurang";
-    else if (bmi < 25)
+    else if (bmi < 25) // else if adalah sebuah kondisi tambahan jika kondisi if salah maka akan di lanjutkan dengan menggunakan else if
         return "Berat Badan Normal";
     else if (bmi < 30)
         return "Berat Badan Kelebihan";
