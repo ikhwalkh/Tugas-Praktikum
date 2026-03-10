@@ -32,6 +32,7 @@ string cekKondisi(float bmi)
         return "Obesitas";
 }
 
+//untuk menjalankan program yang telah dibuat 
 int main()
 {
     float berat, tinggi, bmi;
@@ -47,5 +48,5 @@ int main()
     cout << "Nilai BMI: " << bmi << endl;
     cout << "Kondisi: " << cekKondisi(bmi) << endl;
 
-    return 0;
+    return 0;      
 }
