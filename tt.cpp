@@ -48,5 +48,5 @@ int main()
     cout << "Nilai BMI: " << bmi << endl;
     cout << "Kondisi: " << cekKondisi(bmi) << endl;
 
-    return 0;      
+    return 0;      //tinggal run code
 }
