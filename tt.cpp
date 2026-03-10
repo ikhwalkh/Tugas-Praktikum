@@ -19,7 +19,7 @@ float hitungBMI(float berat, float tinggi)
     return bmi;
 }
 
-// fungsi menentukan kondisi berat badan
+// untuk menentukan kondisi menggunakan if else di gunakan untu mengambil keputusaan secara otomatis
 string cekKondisi(float bmi)
 {
     if (bmi < 18.5)
